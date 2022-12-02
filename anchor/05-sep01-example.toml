@@ -1,0 +1,45 @@
+# ----- BAJS Stellar Anchor  -----
+
+# FEDERATION_SERVER="https://bajsmeetup.cloud/federation"
+
+# The endpoint used for the compliance protocol
+AUTH_SERVER="https://transfer-server.bajsmeetup.cloud/auth"
+
+# Transfer Server
+TRANSFER_SERVER_SEP0024="https://transfer-server.bajsmeetup.cloud"
+TRANSFER_SERVER="https://transfer-server.bajsmeetup.cloud"
+
+# WebAuthEndpoint
+WEB_AUTH_ENDPOINT="https://transfer-server.bajsmeetup.cloud"
+
+# Passphrase
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+# SigningKey
+SIGNING_KEY="GDDWGX5SZI7DGXBSE6EXUPTUJKOMZ3SAKEM4YH6FC33PIWJ3SZ4QDU5C"
+
+[DOCUMENTATION]
+ORG_NAME="BaJS Meetup Company"
+ORG_URL="https://anchors.bajsmeetup.cloud"
+ORG_DESCRIPTION="Best NodeJS Meetup Buenos Aires, Argentina"
+ORG_SUPPORT_EMAIL="support@bajsmeetup.cloud"
+
+# List of accounts that are controlled by this domain
+ACCOUNTS=[
+"GDDWGX5SZI7DGXBSE6EXUPTUJKOMZ3SAKEM4YH6FC33PIWJ3SZ4QDU5C",
+"GAND5Q7AQTDWZWKORSULOX64ONNESRBY7SSZHVY6U6GKJKMK33WYW7WC",
+"GAPQJU6H5OS7TMWVT6IBPB676BKE4SOJJLVLTKP4OGGRES73XIBF3TAE"
+]
+
+[[CURRENCIES]]
+code="BAJS"
+issuer="GAPQJU6H5OS7TMWVT6IBPB676BKE4SOJJLVLTKP4OGGRES73XIBF3TAE"
+display_decimals=2
+name="BAJS"
+desc="Token implemented for the NodeJs BA Meetup" 
+anchor_asset_type="fiat"
+anchor_asset="ARS"
+is_anchored_asset=true
+status="live"
+attestation_of_reserve="https://anchors.bajsmeetup.cloud/audits/BAJS-Audit-No-1.pdf"
+image="https://bajsmeetup.cloud/bajs-logo.png"

@@ -1,0 +1,22 @@
+{
+  "name": "banodejsmeetup",
+  "version": "1.0.0",
+  "description": "basic examples with the stellar sdk for the BA NodeJs meetup Dec 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stellar",
+    "lumens",
+    "sdk",
+    "ba-nodejs-meetup"
+  ],
+  "author": "Wladimir Chópite <wchopite@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "stellar-sdk": "^10.4.0"
+  }
+}
